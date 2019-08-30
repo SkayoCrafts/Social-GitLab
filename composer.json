@@ -1,0 +1,39 @@
+{
+    "name": "skayocrafts/social-gitlab",
+    "description": "GitLab integration for Social",
+    "version": "1.0.0",
+    "type": "craft-plugin",
+    "keywords": [
+        "gitlab",
+        "social",
+        "craftcms"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Skayo",
+            "homepage": "https://skayo.github.io/"
+        }
+    ],
+    "support": {
+        "email": "jonasg.cool@gmail.com",
+        "issues": "https://github.com/SkayoCrafts/social-gitlab/issues",
+        "source": "https://github.com/SkayoCrafts/social-gitlab",
+        "docs": "https://github.com/SkayoCrafts/social-gitlab",
+        "rss": "https://github.com/SkayoCrafts/social-gitlab/commits/v3.atom"
+    },
+    "require": {
+        "craftcms/cms": "3.3.0.1",
+        "dukt/social": "^2.0",
+        "omines/oauth2-gitlab": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "skayocrafts\\social\\gitlab\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Social GitLab",
+        "handle": "social-gitlab"
+    }
+}

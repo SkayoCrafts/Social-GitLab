@@ -1,7 +1,7 @@
 {
     "name": "skayocrafts/social-gitlab",
     "description": "GitLab integration for Social",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "type": "craft-plugin",
     "keywords": [
         "gitlab",
@@ -23,8 +23,8 @@
         "rss": "https://github.com/SkayoCrafts/social-gitlab/commits/v3.atom"
     },
     "require": {
-        "craftcms/cms": "3.3.0.1",
-        "dukt/social": "^2.0",
+        "craftcms/cms": "^3.0.0-RC1",
+        "dukt/social": "^2.0.0-beta.10",
         "omines/oauth2-gitlab": "^3.1"
     },
     "autoload": {
